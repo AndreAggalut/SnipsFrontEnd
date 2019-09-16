@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@import "resets.css";
+@import "header.css";
+@import "snippets.css";
+@import "search.css";
+@import "palette.css";
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #ebebec;
+}

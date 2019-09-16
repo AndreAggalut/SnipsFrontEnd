@@ -1,0 +1,21 @@
+/*Header styling*/
+header {
+  padding: 1rem 2rem;
+  background-color: var(--snips-grey);
+}
+/*General nav styling*/
+nav li {
+  display: inline-block;
+}
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: var(--snips-black);
+
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/* TODO: Footer Styling*/
