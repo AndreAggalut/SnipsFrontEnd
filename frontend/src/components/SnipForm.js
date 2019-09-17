@@ -42,6 +42,7 @@ export default class SnipForm extends React.Component {
           <option>JavaScript</option>
           <option>SQL</option>
         </select>
+
         <p>Description</p>
         <input
           type="text"
