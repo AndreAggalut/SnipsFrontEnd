@@ -5,6 +5,7 @@
 @import "snippets.css";
 @import "search.css";
 @import "palette.css";
+@import "snippetform.css";
 html {
   font-family: "Montserrat", sans-serif;
 }

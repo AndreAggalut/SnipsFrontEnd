@@ -5,6 +5,7 @@ export default class SnipForm extends React.Component {
     super(props);
 
     this.state = {
+      author: 'Roberto',
       title: '',
       language: '',
       description: '',
@@ -19,11 +20,12 @@ export default class SnipForm extends React.Component {
 
   handleSubmit = event => {
     event.preventDefault();
+    this.props.onSubmit(this.state);
   };
 
   render() {
     return (
-      <form id="add-form" onSubmit={this.handleSubmit}>
+      <form className="add-form" onSubmit={this.handleSubmit}>
         <p>Title</p>
         <input
           type="text"
@@ -57,7 +59,9 @@ export default class SnipForm extends React.Component {
           value={this.state.code}
           onChange={this.handleChange}
         />
-        <button htmlFor="addNewSnip">Create</button>
+        <button type="submit" htmlFor="addNewSnip">
+          Create
+        </button>
       </form>
     );
   }
