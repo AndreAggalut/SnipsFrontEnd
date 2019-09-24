@@ -6,6 +6,8 @@
 @import "search.css";
 @import "palette.css";
 @import "snippetform.css";
+@import "loginform.css";
+@import "signupform.css";
 html {
   font-family: "Montserrat", sans-serif;
 }
